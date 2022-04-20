@@ -11,7 +11,7 @@ import datetime
 
 
 def get_args_parser():
-    parser = argparse.ArgumentParser('ConvNeXt training and evaluation script for image classification', add_help=False)
+    parser = argparse.ArgumentParser('ViT training and evaluation script for image classification', add_help=False)
     parser.add_argument('--batch_size', default=16, type=int,
                         help='Per GPU batch size')
     parser.add_argument('--epochs', default=4, type=int)
